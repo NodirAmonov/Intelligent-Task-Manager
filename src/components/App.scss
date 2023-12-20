@@ -1,0 +1,145 @@
+.App {
+  padding-top: 80px;
+  font-family: Verdana, monospace, sans-serif;
+}
+
+.conatiner {
+  width: 1140px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.term-manager {
+  border: 1px solid grey;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 15px 20px;
+  max-width: 5530px;
+  align-items: center;
+}
+.nav-title {
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.nav-Navbar {
+  max-width: 550px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nav-for {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.nav-Placeholder {
+  font-size: 15px;
+  margin: 0 15px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  width: 100%;
+  padding: 12px 15px;
+  outline: none;
+}
+
+.nav-Button {
+  border: 2px solid rgb(54, 74, 54);
+  background: rgb(192, 237, 192);
+  border-radius: 5px;
+  padding: 12px 15px;
+}
+
+.termdate {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  color: #cac6c6;
+  font-size: 15px;
+  align-self: flex-start;
+}
+
+.terminfo {
+  justify-content: center;
+  align-items: flex-start;
+  align-self: flex-start;
+  flex-direction: column;
+  font-size: 15px;
+  display: flex;
+}
+.terms {
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  padding-left: 45px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  display: block;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
+
+.terms input {
+  cursor: pointer;
+  height: 0;
+  width: 0;
+  position: absolute;
+  opacity: 0;
+}
+
+.terms ul {
+  display: flex;
+}
+
+.checkmin {
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  background-color: #eee;
+  border: 2px solid #a8a6a6;
+}
+
+.checkmin:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.terms:hover input ~ .checkmin {
+  background-color: #ccc;
+}
+
+.terms input:checked ~ .checkmin {
+  background-color: #498bc1;
+}
+.terminfo-title-time {
+  margin-bottom: 10px;
+  align-self: flex-start;
+}
+
+.checked-item {
+  text-decoration: line-through;
+}
+
+.time {
+  display: none;
+}
+
+.something {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  font-size: 50px;
+}
+
+.time-active {
+  padding: 10px;
+  display: block;
+}
